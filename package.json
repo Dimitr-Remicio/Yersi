@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Dimitr-Remicio.github.io/Yersi",
+  "homepage": "https://dimitr-remicio.github.io/Yersi",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url /Yersi/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dimitr-Remicio/Yersi.git"
+    "url": "git+https://github.com/dimitr-remicio/Yersi.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/dimitr-remicio/Yersi/issues"
   },
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
