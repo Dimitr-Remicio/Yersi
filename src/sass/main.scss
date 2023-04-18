@@ -1,0 +1,83 @@
+@import "./utils/variables";
+@import "./components/header";
+@import "./components/menu-expanded";
+@import "./components/footer";
+@import "./components/slider";
+@import "./components/buttons";
+
+
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  section {
+    padding: 94px 0;
+    background-color: var(--background);
+  }
+  .container {
+    display: flex;
+    padding: 0 15px;
+    max-width: calc(480px - 500px);
+    margin: 0 auto;
+  }
+
+
+  
+  @media screen and (min-width: 480px) {
+    *{
+      -webkit-overflow-scrolling: touch;
+    }
+    .container {
+      padding: 0 15px;
+      min-width: calc(480px - 50px);
+      // min-width: 768px;
+      margin: 0 auto;
+    }
+
+  }
+  @media screen and (min-width: 768px) {
+    *{
+      -webkit-overflow-scrolling: touch;
+      overflow: visible;
+  
+    }
+    section {
+      padding: 94px 0;
+    }
+    .container {
+      padding: 0 15px;
+      min-width: calc(768px - 10px);
+      // min-width: 768px;
+      margin: 0 auto;
+    }
+
+  }
+  @media screen and (min-width: 1200px) {
+    *{
+      overflow: visible;
+    }
+    
+      section {
+        padding: 94px 0;
+      }
+      .container {
+        padding: 0 15px;
+        width: calc(1500px - 0px);
+        margin: 0 auto;
+      }
+      
+  }
+  
